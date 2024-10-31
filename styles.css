@@ -1,0 +1,178 @@
+body{
+    background: linear-gradient(rgba(248, 249, 250, 0.774),rgba(249, 250, 251, 0.928)),url(Recursos/WhatsApp\ Image\ 2024-08-09\ at\ 11.43.05.jpeg);
+    background-size: 1900px;  
+}
+
+nav{
+    margin-top:30px;
+  }
+  nav > a{
+    text-decoration: none;
+    color:black;
+    padding-right: 50px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:lightgrey;
+    padding:10px ;
+    box-shadow: 7px 7px 0px 0px gray;
+    border-radius: 8px;
+  }
+  a:hover{
+    background-color:white;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+.Container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(20,50px);
+}
+
+.Titulo{
+    grid-column: 1/span 12;
+    grid-row: 2 / 3;
+    background-color: rgb(248, 85, 85);
+    text-align: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    border-radius: 5px;
+    animation-name: cambiocolortitulo;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+}
+@keyframes cambiocolortitulo{
+        5% {color:blue;font-size:5px;}
+        10%{color:blue;font-size:10px;}
+        15%{color:blue;font-size:15px;}
+        20%{color:blue;font-size:20px;}
+        25%{color:black;font-size:22px;}
+        30%{color:black;font-size:26px;}
+        35%{color:black;font-size:29px;}
+        40%{color:black;font-size:30px;}
+        45%{color:red;font-size:33px;}
+        50%{color:red;font-size:35px;}
+        55%{color:red;font-size:37.5px;}
+        60%{color:red;font-size: 40px;}
+        65%{color:yellowgreen;font-size:42.5px;}
+        70%{color:yellowgreen;font-size:45px;}
+        75%{color:yellowgreen;font-size:47.5px;}
+        80%{color:yellowgreen;font-size: 50px;}
+        85%{color:white;font-size: 52.5px;}
+        90%{color:white;font-size: 55px;}
+        95%{color:white;font-size: 57.5px;}
+        100%{color:white;font-size: 60px;}
+        }
+
+.Descripcion{
+    grid-column: 1/span 10;
+    grid-row: 3;
+    margin-left: 100px;
+    text-align: justify;
+    font-size: 25px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.Servicios{
+    grid-column: 1/12;
+    grid-row: 7;
+    color: brown;
+    font-size: 2rem
+}
+
+.fotosprincipal{
+    display: flex;
+    flex-direction: row;
+}    
+
+.wrap-1{
+    margin-left: 99px;
+    font-size: 30px;
+    color:brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+    width: 450px;
+    height: 450px;
+    background:url(../Recursos/Residencial.png);
+    background-size: cover;
+    box-shadow: 15px 15px lightgray;
+    border-radius: 5px;
+}
+
+.wrap-2{
+    margin-left: 100px;
+    font-size: 30px;
+    color:brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+    width: 450px;
+    height: 450px;
+    background:url(../Recursos/Comercial.png);
+    background-size: cover;
+    box-shadow: 15px 15px lightgray;
+    border-radius: 5px;
+}
+.wrap-3{
+    margin-left: 100px;
+    font-size: 30px;
+    color:brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+    width: 450px;
+    height: 450px;
+    background:url(../Recursos/Industrial.png);
+    background-size: cover;
+    box-shadow: 15px 15px lightgray;
+    border-radius: 5px;
+}
+
+
+.Tratamientos{
+    grid-column: 1/span 2;
+    grid-row: 15;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.Carpicture{
+    grid-column: 1;
+    grid-row: 18;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.social{
+    grid-column: 12/13;
+    grid-row: 2;
+    color:whitesmoke;
+    text-align: center;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.social1{
+        background-color:transparent;
+        border: 2px solid transparent;
+        border-radius:5px;
+        grid-column: 12/13;
+        grid-row: 1;
+        text-align: center;
+        font-size:40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.social1 a{background-color: white;color:red}
+.social1 a:hover{background-color:black;color:greenyellow}
+
+
+
+footer{
+    grid-column: 1/-1;
+    grid-row: 21;
+    text-align:left ;
+
+}

@@ -1,0 +1,164 @@
+body{
+  background-color:whitesmoke;
+  background: linear-gradient(rgba(248, 249, 250, 0.774),rgba(249, 250, 251, 0.928)),url(Recursos/WhatsApp\ Image\ 2024-08-09\ at\ 11.43.05.jpeg);
+  background-size: 1900px;
+} 
+
+nav{
+  margin-top:30px;
+}
+nav > a{
+  text-decoration: none;
+  color:black;
+  padding-right: 50px;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:lightgrey;
+  padding:10px ;
+  box-shadow: 7px 7px 0px 0px gray;
+  border-radius: 8px;
+}
+a:hover{
+  background-color:white;
+  color:red;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 0 2px white;
+  background-color:white;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  
+}
+
+h2{
+color: tomato;
+margin-top:50px;background-color:white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 30px;
+text-align: center;
+}
+
+.contenedor{
+  display:flex;
+  flex-flow:row wrap;
+  overflow: scroll;
+  justify-content: center;
+  
+}
+
+.contenedor > div{
+  border: 2px solid brown;
+  width: 410px;
+  height: 250px;
+  margin:10px;
+  margin-bottom: 100px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0 0 3px 3px gray;
+  
+}
+
+img{
+      width:410px;
+      height:180px;
+      object-fit:cover;
+      
+    }
+
+.cucaracha{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.cucaracha:hover{
+  color:black;
+  background-color:red;
+}
+.alacran{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.alacran:hover{
+  color:black;
+  background-color:red;
+}
+.violinista{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.violinista:hover{
+  color:black;
+  background-color:red;
+}
+.garrapatas{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.garrapatas:hover{
+  color:black;
+  background-color:red;
+}
+.viuda{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.viuda:hover{
+  color:black;
+  background-color:red;
+}
+.insectos{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.insectos:hover{
+  color:black;
+  background-color:red;
+}
+.ratas{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.ratas:hover{
+  color:black;
+  background-color:red;
+}
+.termita{
+  background-color:brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: scroll;
+}
+.termita:hover{
+  color:black;
+  background-color:red;
+}
+
+.social{
+  margin-top: 100px;
+  color: red;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  flex-flow: row wrap;
+}
+.social > div{
+  padding-left: 300px;
+  padding-right:30px;
+  font-size: 50px;
+}
+.social a{background-color: white;color:red;}
+.social a:hover{background-color:black;color:greenyellow}
+
